@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/e51c578d8a.js" crossorigin="anonymous"></script>
+
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <hr>
+    <section class="center">
+        <h2 class="heading">Exercise1</h2>
+        <div class="box"></div>
+        <div>
+            <div class="parent">
+                <span class="small-circle"></span>
+                <span>content</span>
+            </div>
+            <div class="parent">
+                <span class="small-circle2"></span>
+                <span>Padding</span>
+            </div>
+            <div class="parent">            
+                <span class="small-circle3"></span>
+                <span>Border</span>
+            </div>
+            <div class="parent">
+                <span class="small-circle4"></span>
+                <span>Margin</span>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="center">
+        <h2 class="heading">Exercise2</h2>
+        <p>no border on this boxes.</p>
+        <div class="parent-container">
+            <div class="child-container"></div>
+            <div class="child-container"></div>
+            <div class="child-container"></div>
+        </div>
+    </section>
+    <hr>
+<section>
+    <p class="center">1px border on these boxes.</p>
+    <div class="parent-container">
+        <div>
+            <div class="child-container border"></div>
+            <div class="child-container border"></div>
+        </div>
+        <div class="child-container border"></div>
+    </div>
+</section>
+ <hr>
+ <section>
+    <p class="center">1px border on these boxes but they are in same line.</p>
+    <div class="parent-container">
+        <div class="child-container border"></div>
+        <div class="child-container border"></div>
+        <div class="child-container border" ></div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* custom style */
+
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.box{
+    background-color: hsl(110.53deg 79.17% 90.59%);
+    width: 10%;
+    margin: 45px auto;
+    height: 150px;
+    border: 20px solid hsl(192.86deg 51.85% 78.82%);
+    outline: 5px solid black;
+    box-shadow: 0 0 0 20px hsl(359.46deg 76.55% 71.57%);
+
+}
+
+header{
+    text-align: center;
+    font-size: 400%;
+    margin: 40px auto;
+}
+
+.center{
+    text-align: center;   
+}
+.heading{
+    font-size: 200%;
+    margin: 30px auto;
+}
+.small-circle{ 
+    display: inline-block;
+    background-color: hsl(110.53deg 79.17% 90.59%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* margin-right: 300px; */
+    
+}
+
+.small-circle2{
+    display: inline-block;
+    background-color: hsl(192.86deg 51.85% 78.82%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.small-circle3{
+    display: inline-block;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.small-circle4{
+    display: inline-block;
+    background-color: hsl(359.46deg 76.55% 71.57%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.parent{
+    display: inline-block;
+    margin: 5px;
+}
+hr{
+    color: rgba(0, 0, 0, 0.207);
+    border-style: dotted;
+    width: 550px;
+    margin: 30px auto;
+}
+.parent-container{
+    width: 622px;
+    border: 1px solid rgb(153 153 153);
+    margin: 40PX auto;
+}  
+p{
+    margin: 10px;
+    font-size: 150%;
+}
+.child-container{
+display: inline-block;
+background-color: darkgrey;
+width: 180px;
+height: 100px;
+margin: 10px;
+}
+.border{
+    border: 1px solid black;
+}

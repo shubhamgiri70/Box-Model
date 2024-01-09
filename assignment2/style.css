@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* general styling */
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 15px;
+}
+.box{
+    background-color: #b22e25;
+    width: 120px;
+    height: 90px;
+    padding: auto;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+}
+.box2{
+    display: inline-block;
+    background-color: #b22e25;
+    width: 120px;
+    height: 90px;
+    border: 5px;
+    border-style: double;
+    border-color: black;
+    margin: 20px;
+}
+.box3{
+    display: inline-block;
+    background-color: #b22e25;
+    width: 120px;
+    height: 90px;
+    border: 5px;
+    border-style: dashed;
+    border-color: black;
+    margin: 20px;
+}
+.box4{
+    display: inline-block;
+    background-color: #b22e25;
+    width: 120px;
+    height: 90px;
+    border: 5px;
+    border-style: dotted;
+    border-color: black;
+    margin: 20px;
+}
+.box5{
+    display: inline-block;
+    background-color: #b22e25;
+    width: 120px;
+    height: 90px;
+    border: 5px;
+    border-color: black;
+    margin: 20px;
+}
+.box6 {
+    background-color: #ea3c2cfa;
+    width: 250px;
+    height: 300px;
+    border: 15px solid;
+    border-top-color:blue;
+    border-right-color: gray;
+    border-bottom-color: yellow;
+    border-left-color: green;
+    margin: 30px;
+    outline: 20px solid rgb(132, 8, 132);
+    padding: 20px;
+    padding-bottom: 50px;   
+}
+p{
+    color: white;
+    
+}
